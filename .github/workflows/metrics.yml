@@ -29,6 +29,7 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_ignored: hlsl, shaderlab, mask, c, objective-c
+          plugin_languages_skipped: ${{ secrets.SKIP_REPOS }}
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
